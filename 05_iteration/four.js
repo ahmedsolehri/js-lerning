@@ -1,0 +1,9 @@
+const myObj = {
+    js: 'javascript',
+    cpp: 'C++',
+    rb: 'Swift by apple'
+}
+
+for (const key in myObj) {
+    console.log(`${key} shortcut is for ${myObj[key]}`)
+}
